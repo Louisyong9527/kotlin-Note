@@ -1,5 +1,14 @@
 # kotlin-Note
 kotlin  note
+
+kotlin基本数据类型6种：Byte Short Int Float Long Double
+java基本数据类型8种：  byte short int float long double char boolean
+
+
+##运算符
+kotlin中无三元运算符，用 if(a>b) a else b 代替
+
+
 ##类型检测&类型转换
 ######is 
 
