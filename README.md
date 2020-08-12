@@ -30,7 +30,28 @@ for (index in items.indices) {
     println("item at $index is ${items[index]}")
 }
 
-通过索引遍历数组或list
+通过索引遍历数组或list  
 for (i in array.indices) {
     println(array[i])
 }
+
+for循环迭代
+val numbers = listOf("one", "two", "three", "four")
+for (item in numbers) {
+    println(item)
+}
+
+forEach迭代
+val numbers = listOf("one", "two", "three", "four")
+numbers.forEach {
+    println(it)
+}
+
+标准迭代：
+val numbers = listOf("one", "two", "three", "four")
+val numbersIterator = numbers.iterator()
+while (numbersIterator.hasNext()) {
+    println(numbersIterator.next())
+}
+
+
